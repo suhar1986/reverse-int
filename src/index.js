@@ -2,7 +2,7 @@ module.exports = function reverse (n) {
     if (n < 0) {n = Math.abs(n)};
     const nStr = n.toString(); 
     const resultArr = [];
-    resultArr.push(nStr[2] + nStr[1] + nStr[0]);
+    resultArr.push(nStr[2], nStr[1], nStr[0]);
     const resultStr = resultArr.join('');
     return Number(resultStr);
     
